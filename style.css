@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003049;
+    color: #fafafa;
+    padding: 1rem;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+main {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.experiencia-laboral {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.informacion-personal {
+    /* Estilos editables */
+    float: left; /* Cambiar la posición del elemento */
+    padding: 40px 20px; /* Espaciado interno del contenedor (40px arriba y abajo, 20px a los lados) */
+    margin-right: 30px; /* Margen derecho del contenedor */
+    background-color: #F9982F; /* Color de fondo del contenedor */
+    width: 300px; /* Ancho del contenedor */
+    height: 95%; /* Altura del contenedor */
+    text-align: center; /* Alineación del texto dentro del contenedor */
+
+    /* Estilos opcionales */
+    /* left: -33px; */ /* Desplazamiento horizontal opcional */
+    /* top: -33px; */ /* Desplazamiento vertical opcional */
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.informacion-personal h3 {
+    margin-top: 20px;
+}
+
+.informacion-personal p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #003049;
+    border-bottom: 1px solid #003049;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #003049;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #003049;
+}
+
+p {
+    line-height: 1.2;
+    font-size: medium;
+}
+
+a {
+    color: #003049;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.header-text {
+    display: grid;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.profile-image {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 70px;
+    z-index: 1;
+    border: 5px solid #003049;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.estrellas {
+    font-size: 20px; 
+    color: #ffffff; 
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .experiencia-laboral {
+        margin-top: 2rem;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .header-text {
+        margin: 1rem auto;
+    }
+
+    .informacion-personal {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 0;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experiencia-laboral {
+        margin-top: 2rem;
+    }
+
+    .header-text {
+        margin-top: 1rem;
+    }
+
+    .profile-image {
+        margin-bottom: 1rem;
+    }
+
+    .informacion-personal {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
